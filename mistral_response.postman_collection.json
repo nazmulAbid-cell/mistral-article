@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "e331d24a-fac8-4178-a94f-38b886a343b5",
+		"name": "mistral_response",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33966697"
+	},
+	"item": [
+		{
+			"name": "generate_response",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "user_input",
+							"value": "Behind the Desk: Why Your Employee Could Be Your Risky Bet! Did you ever heard about Insider Risk? in today's digital world, companies are aware and ready for variety range of cybersecurity risks, like Malware attack, Distributed denial of service (DDoS), zero day vulnerabilities or any kind of cybersecurity attacks. although if you noticed these are list of well-recognized external threats. but most of companies are forgetting to add the insider risk in the list of Cybersecurity risks, it's important to not overlook risk posed by insiders within the organization. Insider risks, combines both intentional and unintentional actions done by empoyee, contractor or other party, that’s effect organization people, data or resources negatively. So typically, Insider Risk: a risk raised by employee, contractor, or other party to negatively affect organization people, data or resources, either by intentional or unintentional actions. Why its matter? You may ask why insider risk is matter, lets me give a short store about insider risk at Airline Company, Pegasus Airline left 23 million files containing personal data exposed online after an employee improperly configured a database. The incident was reported in June 2022 after the Turkish airline discovered the error. But I’m sure that you now that the store did not end here, as a consequence of this accident, company lost millions of dollars, brand awareness, customer lose trust in the brand, paid a fine for non-compliance with IT requirements, stalled data, etc. What are the different types of insider threats? The different type of insider threats is primarily based on individuals' roles and responsibilities. current employees, former employee, covert agents (moles). Every type of the above has a distinct motivation for attacking, such stealing sensitive data or valuable data for financial gain, sabotaging, or damaging as a form of revenge or personal gain, steal trade secret to limit a company competitive advantage, etc. Recognizing these people is must for organizations to implement strong security measures, monitor activities, and mitigate the risks created by insider threats. Note that not all insider threats are malicious, it could be an accident, but this accident may case a significant risk. What are the warning signs that could indicate an insider threat? Why is access control important for insider threat? To effectively control insider risks, Access control is crucial part. with some principle like, Role-based access control, that insure everyone have just permission aligned with their department and work responsibilities. least-privilege access, employees are restricted from accessing the network to only what they need to carry out for their responsibilities. zero trust security, verifies identities even within the network, to limit user and devices access. Therefore, reducing potential damage from insider threats. With time the effect of insiders’ threats are increasing from the side of cost and also the consequences of this event, as evidence se the fowling chart. total average cost of insider threats incidents, What are the consequences of barely manage insider risks? The consequences of a race but the most popular are financial loses, loss of intellectual property, reputational losses, operational destruction. In conclusion, organizations must remain alert in determining and mitigating insider risks, as these threats can arise from trusted individuals and have dangerous consequences. Effective management and security measures are must to deal with these threats successfully",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://127.0.0.1:5015/generate_response",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5015",
+					"path": [
+						"generate_response"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "generate_response_file",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
